@@ -1,0 +1,245 @@
+
+/* index style sheet */
+
+.font{
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.nav-color{
+    font-weight: bold;
+    color:white !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+body{
+    margin: 0px;
+}
+.containernav{
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.navlist{
+    list-style: none;
+}
+.navitems{
+    display: inline;
+    padding-right: 20px;
+}
+img{
+    border-radius: 50%
+}
+.main-index{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    min-height: 69vh;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button a{
+    color: white;
+}
+.hire-button{
+    width: 161px;
+}
+footer{
+    height: 100px;
+    background-color: #607d8b1f;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 16px;
+    text-align: center;
+}
+footer a{
+    margin-top: 10px;
+}
+
+.img-fb-custom{
+    margin-top: 14px;
+    margin-right: 5px;
+    width: 3%;
+}
+.img-twitter-customr{
+    margin-top: 14px;
+    margin-left: 5px;
+    width: 3%;
+}
+
+/* about style sheet */
+
+.about-1{
+    width: 440px;
+    padding: 20px;
+}
+
+.about-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 1050px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.margin-h1{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.center-div{
+    text-align: center;
+    margin-top: 120px;
+}
+.about-container2{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-skill{
+    width: 1050px;
+    padding: 15px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+    
+.skill-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bold-font{
+    font-weight: bold;
+}
+.min{
+    min-width: 40px;
+}
+
+/* experience style sheet */
+
+.grid-center{
+    margin-top: 106px;
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+}
+.column-2{
+    padding-left: 30px;
+    padding-right: 10px;
+    grid-column: 2/span4;
+}
+.column-2 h4{
+    font-size: 24px;
+    margin: 15px 0 10px;
+}
+.column-1{
+    display: flex;
+    background-color: #4CAF50;
+    color: white;
+    font-size: large;
+}
+.column-1 div{
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+/* contact style sheet */
+
+
+.img-back{
+    display: flex;
+    justify-content: center;
+    height: 570px;
+    background-image: url(../res/back.png);
+    background-size: cover;
+    
+}
+.contact-form >h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-form{
+    border-radius: 5px;
+    margin: 50px 0px 14px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    width: 360px;
+    background-color: white;
+}
+.input-group-text{
+    border-radius: 1.25rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    background-color: white !important;
+}
+.radio-inline{
+    display: inline !important;
+}
+.custom-form .form-control{
+    border-radius: 1.25rem !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.send-button{
+    color: white;
+    border-radius: 5px;
+    padding: 11px 22px;
+}
+.bold-gender{
+    font-weight:bold;
+    padding-right: 20px;
+}
+textarea{
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+}
+
+.contact-nav ul {
+    margin-top: inherit !important;
+    margin-bottom: inherit !important;
+}
+
+.contact-nav .containernav {
+    min-height: 7.5vh;
+}
+
+.contact-nav {
+    font-size: 14.4px !important;
+}
